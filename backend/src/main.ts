@@ -29,6 +29,11 @@ async function bootstrap() {
   );
   app.useGlobalFilters(new AllExceptionsFilter());
 
+  const httpAdapter = app.getHttpAdapter().getInstance();
+  httpAdapter.get('/', (_req: unknown, res: { send: (body: string) => void }) => {
+    res.send('Sporthink Mutabakat API Çalışıyor ✅');
+  });
+
   const port = config.get<number>('PORT', 3001);
   await app.listen(port);
 }
