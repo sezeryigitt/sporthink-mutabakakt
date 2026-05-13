@@ -1,0 +1,65 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model pazaryerleri {
+  pazaryeri_id      BigInt   @id @default(autoincrement()) @db.UnsignedBigInt
+  pazaryeri_kodu    String   @unique @db.VarChar(30)
+  pazaryeri_adi     String   @db.VarChar(100)
+  aktif_mi          Boolean  @default(true)
+  olusturma_zamani  DateTime @default(now()) @db.Timestamp(0)
+  guncelleme_zamani DateTime @default(now()) @updatedAt @db.Timestamp(0)
+}
+
+model pazaryeri_hesaplari {
+  pazaryeri_hesap_id BigInt   @id @default(autoincrement()) @db.UnsignedBigInt
+  pazaryeri_id       BigInt   @db.UnsignedBigInt
+  satici_kodu        String?  @db.VarChar(80)
+  satici_adi         String?  @db.VarChar(150)
+  magaza_kodu        String?  @db.VarChar(80)
+  magaza_adi         String?  @db.VarChar(150)
+  vergi_no           String?  @db.VarChar(30)
+  aktif_mi           Boolean  @default(true)
+  olusturma_zamani   DateTime @default(now()) @db.Timestamp(0)
+  guncelleme_zamani  DateTime @default(now()) @updatedAt @db.Timestamp(0)
+
+  @@index([pazaryeri_id])
+}
+
+model siparis_satirlari {
+  siparis_satir_id          BigInt    @id @default(autoincrement()) @db.UnsignedBigInt
+  pazaryeri_id              BigInt    @db.UnsignedBigInt
+  pazaryeri_hesap_id        BigInt?   @db.UnsignedBigInt
+  aktarim_parti_id          BigInt?   @db.UnsignedBigInt
+  siparis_no                String    @db.VarChar(100)
+  pazaryeri_siparis_no      String?   @db.VarChar(100)
+  paket_no                  String?   @db.VarChar(100)
+  takip_no                  String?   @db.VarChar(120)
+  urun_id                   BigInt?   @db.UnsignedBigInt
+  barkod                    String?   @db.VarChar(80)
+  sku                       String?   @db.VarChar(100)
+  urun_adi                  String?   @db.VarChar(255)
+  adet                      Decimal   @default(1.0000) @db.Decimal(18, 4)
+  birim_fiyat               Decimal?  @db.Decimal(18, 4)
+  brut_tutar                Decimal?  @db.Decimal(18, 4)
+  kdv_orani                 Decimal?  @db.Decimal(7, 4)
+  kdv_haric_tutar           Decimal?  @db.Decimal(18, 4)
+  siparis_durumu            String?   @db.VarChar(80)
+  siparis_olusturma_zamani  DateTime? @db.DateTime(0)
+  kargo_gonderim_zamani     DateTime? @db.DateTime(0)
+  kargo_firma_id            BigInt?   @db.UnsignedBigInt
+  tahmini_desi              Decimal?  @db.Decimal(10, 2)
+  pazaryeri_fiyati          Decimal?  @db.Decimal(18, 4)
+  ham_veri                  Json?
+  olusturma_zamani          DateTime  @default(now()) @db.Timestamp(0)
+  guncelleme_zamani         DateTime  @default(now()) @updatedAt @db.Timestamp(0)
+
+  @@index([pazaryeri_id, siparis_no])
+  @@index([siparis_no])
+  @@index([barkod])
+}

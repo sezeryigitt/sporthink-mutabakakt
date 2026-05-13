@@ -1,0 +1,418 @@
+{
+  "info": {
+    "_postman_id": "b4092e31-2d6e-4c37-9cf7-80ffde5c987b",
+    "name": "Sporthink Mutabakat Backend API",
+    "description": "NestJS backend endpointleri icin Postman collection. Yeni endpointler eklendikce bu dosya guncellenecek.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3001/api",
+      "type": "string"
+    },
+    {
+      "key": "pazaryeriId",
+      "value": "1",
+      "type": "string"
+    },
+    {
+      "key": "siparisNo",
+      "value": "SPT-TRENDYOL-2026-0001",
+      "type": "string"
+    },
+    {
+      "key": "microsoftIdToken",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "accessToken",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "GET /health",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "health"
+              ]
+            },
+            "description": "Uygulama ve Azure MySQL baglanti saglik kontrolu."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Database is up', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.status).to.eql('up');",
+                  "  pm.expect(json.dependencies.database.status).to.eql('up');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "POST /auth/microsoft/login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id_token\": \"{{microsoftIdToken}}\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/auth/microsoft/login",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "microsoft",
+                "login"
+              ]
+            },
+            "description": "Microsoft id_token dogrulanir ve uygulama JWT'si uretilir."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "const json = pm.response.json();",
+                  "if (json.access_token) {",
+                  "  pm.collectionVariables.set('accessToken', json.access_token);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET /auth/me",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/auth/me",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "auth",
+                "me"
+              ]
+            },
+            "description": "Uygulama JWT'sinden oturumdaki kullanici ozetini getirir."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('User payload exists', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data.eposta).to.be.a('string');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pazaryerleri",
+      "item": [
+        {
+          "name": "GET /pazaryerleri",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/pazaryerleri?aktif_mi=true",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pazaryerleri"
+              ],
+              "query": [
+                {
+                  "key": "aktif_mi",
+                  "value": "true",
+                  "description": "true/false veya 1/0"
+                }
+              ]
+            },
+            "description": "Aktif veya tum pazaryerlerini listeler."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has data array', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET /pazaryerleri/:id/hesaplar",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/pazaryerleri/{{pazaryeriId}}/hesaplar",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "pazaryerleri",
+                "{{pazaryeriId}}",
+                "hesaplar"
+              ]
+            },
+            "description": "Secili pazaryerinin satici/magaza hesaplarini listeler."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has data array', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Siparisler",
+      "item": [
+        {
+          "name": "GET /siparisler/:siparisNo",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/siparisler/{{siparisNo}}?pazaryeri_id={{pazaryeriId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "siparisler",
+                "{{siparisNo}}"
+              ],
+              "query": [
+                {
+                  "key": "pazaryeri_id",
+                  "value": "{{pazaryeriId}}",
+                  "description": "Opsiyonel pazaryeri filtresi"
+                }
+              ]
+            },
+            "description": "Siparis omurga detayini; siparis satirlari, ERP satirlari, iade/iptal, finansal hareket, komisyon/desi mutabakati ve karlilik ozetiyle birlikte getirir."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Order payload has expected sections', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data.siparis_no).to.eql(pm.collectionVariables.get('siparisNo'));",
+                  "  pm.expect(json.data.siparis_satirlari).to.be.an('array');",
+                  "  pm.expect(json.data.pazaryeri_finansal_hareketleri).to.be.an('array');",
+                  "  pm.expect(json.data.komisyon_mutabakatlari).to.be.an('array');",
+                  "  pm.expect(json.data.desi_mutabakatlari).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "GET /siparisler/:siparisNo/finans-ozeti",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/siparisler/{{siparisNo}}/finans-ozeti?pazaryeri_id={{pazaryeriId}}",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "siparisler",
+                "{{siparisNo}}",
+                "finans-ozeti"
+              ],
+              "query": [
+                {
+                  "key": "pazaryeri_id",
+                  "value": "{{pazaryeriId}}",
+                  "description": "Opsiyonel pazaryeri filtresi"
+                }
+              ]
+            },
+            "description": "vw_siparis_finans_ozeti uzerinden siparis finans ozetini getirir."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Response has data array', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data).to.be.an('array');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "GET /admin/kullanicilar-loglar",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/admin/kullanicilar-loglar",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "admin",
+                "kullanicilar-loglar"
+              ]
+            },
+            "description": "Admin rolundeki kullanici icin kullanicilar, roller, denetim loglari ve sayfa istatistiklerini getirir."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Status code is 200', function () {",
+                  "  pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test('Admin page payload has users and audit logs', function () {",
+                  "  const json = pm.response.json();",
+                  "  pm.expect(json.data.kullanicilar).to.be.an('array');",
+                  "  pm.expect(json.data.denetim_loglari).to.be.an('array');",
+                  "  pm.expect(json.data.istatistikler.toplam_kullanici).to.be.a('number');",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

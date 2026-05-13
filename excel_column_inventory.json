@@ -1,0 +1,3208 @@
+[
+  {
+    "file": "Bankalar\\Banka listeleri tablosu\\Banka listeleri tablosu.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "sheet1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kodu",
+          "POS Banka",
+          "Kart Numarası",
+          "Kart Banka",
+          "Firma",
+          "Üye İş Yeri No",
+          "Üye İş Yeri Adı",
+          "İşlem Tarihi",
+          "Valör Tarihi",
+          "Gün Sonu Tarihi",
+          "İşlem Tutarı",
+          "P.B.",
+          "Toplam Komisyon Tutarı",
+          "Komisyon Oranı (%)",
+          "Net Tutar",
+          "Banka Komisyon Tutarı",
+          "Puan/Ödül Komisyon Tutarı",
+          "Terminal No",
+          "Terminal Adı",
+          "Provizyon No",
+          "Taksit",
+          "İşlem Tipi",
+          "Dönüş IBAN",
+          "Rezerve Alan",
+          "POS Kart Tipi",
+          "POS Tipi",
+          "Batch No",
+          "Taksit Sıra No",
+          "Sipariş Numarası",
+          "Kart Tipi"
+        ],
+        "sample": [
+          {
+            "İşlem Kodu": "1562142263",
+            "POS Banka": "xyz",
+            "Kart Numarası": "555******45",
+            "Kart Banka": "xyz",
+            "Firma": "abc",
+            "Üye İş Yeri No": "4687123",
+            "Üye İş Yeri Adı": "x",
+            "İşlem Tarihi": "2025-12-12 18:27:30",
+            "Valör Tarihi": "2026-04-05 00:00:00",
+            "Gün Sonu Tarihi": "2025-12-12 00:00:00",
+            "İşlem Tutarı": "3125.2",
+            "P.B.": "x",
+            "Toplam Komisyon Tutarı": "15.3",
+            "Komisyon Oranı (%)": "1.9",
+            "Net Tutar": "2780.8",
+            "Banka Komisyon Tutarı": "15.3",
+            "Puan/Ödül Komisyon Tutarı": "0",
+            "Terminal No": "00000000",
+            "Provizyon No": "136489",
+            "Taksit": "5",
+            "İşlem Tipi": "xyz",
+            "Dönüş IBAN": "abcdefghs",
+            "POS Kart Tipi": "abc",
+            "POS Tipi": "abs",
+            "Taksit Sıra No": "6",
+            "Kart Tipi": "qyz"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Bankalar\\Havaleler\\Havale Ödemeler.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Eticaret Muhasebe",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Tunay bey sayfasındaki Sayısı",
+          "Sayfadaki Sayısı",
+          "Tarih",
+          "SİPARİŞ NO",
+          "İSİM SOYİSİM",
+          "BANKA",
+          "TUTAR",
+          "TUNAY BEY AÇIKLAMA",
+          "SİPARİŞ DURUM",
+          "İKİNCİ KONTROL"
+        ],
+        "sample": [
+          {
+            "Tunay bey sayfasındaki Sayısı": "0",
+            "Sayfadaki Sayısı": "1",
+            "Tarih": "2024-04-05 00:00:00",
+            "SİPARİŞ NO": "ST04562215468",
+            "İSİM SOYİSİM": "x",
+            "BANKA": "xyz",
+            "TUTAR": "1259.69",
+            "TUNAY BEY AÇIKLAMA": "abc",
+            "SİPARİŞ DURUM": "x"
+          }
+        ]
+      },
+      {
+        "sheet": "Tunay Bey",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "TARİH",
+          "BANKA",
+          "TUTAR",
+          "SİPARİŞ NO",
+          "x BEY AÇIKLAMA - İSİM SOYİSİM",
+          "Column_6",
+          "Operasyon  NOT"
+        ],
+        "sample": [
+          {
+            "TARİH": "2026-03-15 00:00:00",
+            "BANKA": "xyz",
+            "TUTAR": "1536.99",
+            "SİPARİŞ NO": "ST465987412365",
+            "x BEY AÇIKLAMA - İSİM SOYİSİM": "abc numaralı sipariş",
+            "Column_6": "x",
+            "Operasyon  NOT": "xcz"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Kargo Listeleri\\Kargo Firmalarının Fatura Dökümanları\\Yurtiçi Kargo\\Yurtiçi Kargo.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 4,
+        "rows_sampled": 5,
+        "columns": [
+          "Fatura Gönderi Kodu",
+          "Oluşturulma Tarihi",
+          "Fatura Numarası",
+          "Toplam Fatura Tutarı",
+          "Toplam Fatura Kdv",
+          "Faturayı Düzenleyen Birim",
+          "Müşteri Adı",
+          "Gönderici Müşteri Kodu",
+          "Gönderici Müşteri",
+          "Gönderen Müşteri Adresi",
+          "Gönderen Müşteri Telefon Numarası",
+          "Alıcı Müşteri Kodu",
+          "Alıcı Müşteri",
+          "Alıcı Müşteri Adres",
+          "Alıcı Müşteri Telefon Numarası",
+          "Çıkış Birimi",
+          "Çıkış İli",
+          "Çıkış Tarihi",
+          "Varış Birimi",
+          "Varış İli",
+          "Varış Tarihi",
+          "Kargo Tipi",
+          "Ödeme Tipi",
+          "Alım Tipi",
+          "Teslim Birimi",
+          "Teslim İli",
+          "Ürün Adı",
+          "Toplam Kargo Adedi",
+          "Desi / Kg",
+          "Fatura Tipi",
+          "Gönderi Kodu",
+          "İrsaliye Numarası",
+          "Ürün Bedeli",
+          "İrsaliye Matrahı",
+          "Kdv",
+          "İrsaliye Matrahı+KDV",
+          "Kargo Statüsü",
+          "Kargo Statü Detayı",
+          "Mesafe (Km)",
+          "Mesafe Açıklaması",
+          "Teslim Alan",
+          "Teslim Tarihi",
+          "Teslim Saati",
+          "Ambar Tesellüm",
+          "Sevk İrsaliye No.",
+          "Bilgi",
+          "Açıklama",
+          "Tutanak Numarası",
+          "Özel Alan",
+          "Gönderici Segment Kodu",
+          "Gönderici Segment Adı",
+          "Alıcı Segment Kodu",
+          "Alıcı Segment Adı",
+          "İrsaliye Posta Hizmet Bedeli",
+          "Fatura Posta Hizmet Bedeli",
+          "SMS Bedeli",
+          "TT Hizmet Bedeli",
+          "Kutu Tutar",
+          "Kanal Tipi",
+          "Teslim Tipi",
+          "YKPlus Mı?",
+          "YKPlus Tipi",
+          "Kontrol Sende Hizmeti Kullanıldı mı?"
+        ],
+        "sample": [
+          {
+            "Fatura Gönderi Kodu": "201698745321",
+            "Oluşturulma Tarihi": "2025-12-01 00:00:00",
+            "Fatura Numarası": "abc1265478523145",
+            "Toplam Fatura Tutarı": "205493.56",
+            "Toplam Fatura Kdv": "15963.23",
+            "Faturayı Düzenleyen Birim": "xyz",
+            "Müşteri Adı": "x",
+            "Gönderici Müşteri Kodu": "785236412",
+            "Gönderici Müşteri": "x",
+            "Gönderen Müşteri Adresi": "dgcvghvhgcgcg",
+            "Gönderen Müşteri Telefon Numarası": "34575693201",
+            "Alıcı Müşteri Kodu": "786321459",
+            "Alıcı Müşteri": "abc xyz",
+            "Alıcı Müşteri Adres": "hchcfhxjcgvhvjhv",
+            "Alıcı Müşteri Telefon Numarası": "5698745321",
+            "Çıkış Birimi": "lmn",
+            "Çıkış İli": "xyz",
+            "Çıkış Tarihi": "2025-10-12 00:00:00",
+            "Varış Birimi": "gfxxgxfgh",
+            "Varış İli": "hcxfgxgx",
+            "Varış Tarihi": "2025-10-15 00:00:00",
+            "Kargo Tipi": "x",
+            "Ödeme Tipi": "x",
+            "Alım Tipi": "x",
+            "Teslim Birimi": "hxgd",
+            "Teslim İli": "ddfzgxd",
+            "Ürün Adı": "x",
+            "Toplam Kargo Adedi": "2",
+            "Desi / Kg": "fchg",
+            "Fatura Tipi": "x",
+            "Gönderi Kodu": "12365478965",
+            "İrsaliye Numarası": "TN632541",
+            "Ürün Bedeli": "45.69",
+            "İrsaliye Matrahı": "96.35",
+            "Kdv": "12.34",
+            "İrsaliye Matrahı+KDV": "67.45",
+            "Kargo Statüsü": "bsjdbs",
+            "Mesafe (Km)": "300",
+            "Mesafe Açıklaması": "x",
+            "Teslim Alan": "jwdxqhdxva",
+            "Teslim Tarihi": "2025-10-15 00:00:00",
+            "Teslim Saati": "12:12:36",
+            "Ambar Tesellüm": "SELFSERVİS",
+            "Sevk İrsaliye No.": "ST123654789652",
+            "Bilgi": "x şirketi",
+            "Açıklama": "anahtar:ST123654789652  temsilci:6322545",
+            "Özel Alan": "Anahtar Alan:ST123654789652;Sipariş No:ST123654789652",
+            "İrsaliye Posta Hizmet Bedeli": "1.5855",
+            "Fatura Posta Hizmet Bedeli": "22500.02",
+            "SMS Bedeli": "0",
+            "TT Hizmet Bedeli": "0",
+            "Kutu Tutar": "0",
+            "Kanal Tipi": "Entegrasyon",
+            "Teslim Tipi": "Adrese Teslim",
+            "YKPlus Mı?": "HAYIR",
+            "Kontrol Sende Hizmeti Kullanıldı mı?": "evet"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Kontrol Tabloları\\kontrolTablo.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 1,
+        "columns": [
+          "Sipariş Numarası",
+          "Özel Kod 1",
+          "Barkod",
+          "Sipariş Adeti",
+          "Birim Fiyat",
+          "Oluşma Zamanı",
+          "Sipariş Toplam Tutarı",
+          "Ülke",
+          "KDV Oranı",
+          "Durum",
+          "Pazaryeri Fiyatı",
+          "PO Alanı",
+          "Kargo Gönderim Tarihi",
+          "Kaynak Mağaza Adı",
+          "Iade__Iptal_Turu",
+          "Sipariş İade/İptal Adedi",
+          "Sipariş İade/İptal Tutarı",
+          "Satış Adeti",
+          "Satış Tipi",
+          "Satış Tutarı",
+          "Satış İade Adedi",
+          "Satış İade Tutarı",
+          "Kategori",
+          "Tahmini Desi",
+          "Hesaplanan Sipariş Desisi",
+          "Hesaplanan Sipariş Desi Tutarı",
+          "Hesaplanan Komisyon Tutarı",
+          "Mükerrer Mi",
+          "Fark Var Mı",
+          "Faturalandırılan Desi Tutarı",
+          "Faturalandırılan Desi",
+          "Faturalandırılan İade Komisyonu",
+          "Faturalandırılan Komisyon Tutarı",
+          "İade Komisyon Doğru Mu"
+        ],
+        "sample": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Kurumsal Faturalar\\Gelen Faturalar\\bizeKesilenFaturalar.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fiş Tarihi",
+          "Hareket Türü",
+          "Evrak No",
+          "Açıklama",
+          "Borç Tutarı",
+          "Alacak Tutarı",
+          "Bakiye",
+          "Hesap Adı"
+        ],
+        "sample": [
+          {
+            "Fiş Tarihi": "2025-06-01 00:00:00",
+            "Hareket Türü": "x",
+            "Evrak No": "DDF256321478569",
+            "Açıklama": "Ft.No.DDF256321478569 Kargo Fatura",
+            "Borç Tutarı": "0",
+            "Alacak Tutarı": "456321.45",
+            "Bakiye": "26.679.996,29 B",
+            "Hesap Adı": "ABC GRUP DANIŞMANLIK İLETİŞİM VE SATIŞ TİCARET A.Ş"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Kurumsal Faturalar\\Giden Faturalar\\bizimKestigimizFaturalar.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fiş Tarihi",
+          "Hareket Türü",
+          "Evrak No",
+          "Açıklama",
+          "Borç Tutarı",
+          "Alacak Tutarı",
+          "Bakiye",
+          "Hesap Adı"
+        ],
+        "sample": [
+          {
+            "Fiş Tarihi": "2025-07-01 00:00:00",
+            "Hareket Türü": "x",
+            "Evrak No": "GIB123654789655",
+            "Açıklama": "Ft.No.GIB123654789655-10-2025|16-10-2025    Kargo Bedeli İtirazı",
+            "Borç Tutarı": "563.15",
+            "Alacak Tutarı": "0",
+            "Bakiye": "26.7856.676,59 B",
+            "Hesap Adı": "ABC GRUP DANIŞMANLIK İLETİŞİM VE SATIŞ TİCARET A.Ş"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\floKargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Desi",
+          "hepsiJET",
+          "Aras"
+        ],
+        "sample": [
+          {
+            "Desi": "1",
+            "hepsiJET": "52.36",
+            "Aras": "55.63"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\hbKargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Desi",
+          "hepsiJET",
+          "ArasKargo",
+          "MNGKargo",
+          "YurtiçiKargo",
+          "SüratKargo",
+          "Sendeo",
+          "PTTKargo",
+          "hepsiJETXL",
+          "HorozLojistik",
+          "CevaLojistik",
+          "BorusanLojistik"
+        ],
+        "sample": [
+          {
+            "Desi": "0",
+            "hepsiJET": "45.36",
+            "ArasKargo": "48.99",
+            "MNGKargo": "53.99",
+            "YurtiçiKargo": "67.69",
+            "SüratKargo": "48.26",
+            "Sendeo": "49.8",
+            "PTTKargo": "54.54",
+            "hepsiJETXL": "289.9",
+            "HorozLojistik": "263.45",
+            "CevaLojistik": "423.12",
+            "BorusanLojistik": "335.21"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\lcwKargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Desi / Kg",
+          "Aras Kargo",
+          "HepsiJet",
+          "Kargoist",
+          "Sürat Kargo",
+          "Yurtiçi Kargo"
+        ],
+        "sample": [
+          {
+            "Desi / Kg": "0",
+            "Aras Kargo": "52.2983",
+            "HepsiJet": "46.365",
+            "Kargoist": "34.2698",
+            "Sürat Kargo": "52.3654",
+            "Yurtiçi Kargo": "65.3248"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\n11KargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "KG/desi",
+          "Aras Kargo",
+          "PTT Kargo",
+          "Yurtiçi Kargo",
+          "Sürat Kargo",
+          "Sendeo Kargo"
+        ],
+        "sample": [
+          {
+            "KG/desi": "1",
+            "Aras Kargo": "47.36",
+            "PTT Kargo": "15.3",
+            "Yurtiçi Kargo": "66.36",
+            "Sürat Kargo": "48.5",
+            "Sendeo Kargo": "48.6"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\pzSpKargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Desi",
+          "Tutar KDV'siz"
+        ],
+        "sample": [
+          {
+            "Desi": "2",
+            "Tutar KDV'siz": "59.32"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Kargo-Desi Anlaşmaları\\tdyKargoFiyat.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Desi/KG",
+          "Aras",
+          "MNG",
+          "PTT",
+          "Sendeo",
+          "Sürat",
+          "TEX",
+          "Yurtiçi",
+          "Borusan",
+          "CEVA",
+          "Horoz"
+        ],
+        "sample": [
+          {
+            "Desi/KG": "0",
+            "Aras": "53.6",
+            "MNG": "63.542",
+            "PTT": "57.321",
+            "Sendeo": "56.36",
+            "Sürat": "58.654",
+            "TEX": "53.41",
+            "Yurtiçi": "79.365",
+            "Borusan": "410.36",
+            "CEVA": "423.65",
+            "Horoz": "462.746"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Pazaryerleri Standart Komisyon Anlaşmaları\\KDVdahilharic\\komisyonKdvDahilHaric.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Hepsiburada",
+          "Trendyol",
+          "Pazarama",
+          "n11",
+          "Lcw",
+          "Flo",
+          "Hepsiburada KDV Hariç",
+          "Trendyol KDV Hariç",
+          "Pazarama KDV Hariç",
+          "n11 KDV Hariç",
+          "Lcw KDV  Hariç",
+          "Flo KDV Hariç"
+        ],
+        "sample": [
+          {
+            "Hepsiburada": "13.25",
+            "Trendyol": "15.63",
+            "Pazarama": "6.3",
+            "n11": "12.3",
+            "Lcw": "9",
+            "Flo": "12",
+            "Hepsiburada KDV Hariç": "11",
+            "Trendyol KDV Hariç": "10.8666666666667",
+            "Pazarama KDV Hariç": "6.25",
+            "n11 KDV Hariç": "7.475",
+            "Lcw KDV  Hariç": "9.33333333333333",
+            "Flo KDV Hariç": "11.8333333333333"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Dinamik Tablolar\\Ürün(barkod) Kategori Listesi\\barkodKategori2.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Urun Adi",
+          "Barkod",
+          "Kategoriler"
+        ],
+        "sample": [
+          {
+            "Urun Adi": "x",
+            "Barkod": "165853880174",
+            "Kategoriler": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Parametre Tabloları\\Statik Tablolar\\kategoriDesiListesi.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Kategoriler",
+          "Tahmini Desi"
+        ],
+        "sample": [
+          {
+            "Kategoriler": "Giyim -> Mont -> Kadın",
+            "Tahmini Desi": "1"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Amazon\\01.03.2026 - 31.03.2026 dönemi ile ilgili işlemler.csv",
+    "suffix": ".csv",
+    "sheets": [
+      {
+        "sheet": "csv",
+        "rows_sampled": 5,
+        "columns": [
+          "Tarih",
+          "İşlem Durumu",
+          "İşlem tipi",
+          "Sipariş No.",
+          "Ürün Detayları",
+          "Toplam ürün fiyatları",
+          "Toplam promosyon indirimleri",
+          "Amazon ücretleri",
+          "Diğer",
+          "Toplam (TRY)"
+        ],
+        "sample": [
+          {
+            "Tarih": "31.03.2026",
+            "İşlem Durumu": "Oluşturuldu",
+            "İşlem tipi": "Sipariş Ödemesi",
+            "Sipariş No.": "407-0256391-5303254",
+            "Ürün Detayları": "xyz Ayakkabı",
+            "Toplam ürün fiyatları": "1013.95",
+            "Toplam promosyon indirimleri": "0",
+            "Amazon ücretleri": "-223",
+            "Diğer": "0",
+            "Toplam (TRY)": "1236.95"
+          },
+          {
+            "Tarih": "31.03.2026",
+            "İşlem Durumu": "Oluşturuldu",
+            "İşlem tipi": "Amazon Kolay Gönderi ücretleri",
+            "Sipariş No.": "326-9783605-7369531",
+            "Ürün Detayları": "Faturalandırma",
+            "Toplam ürün fiyatları": "0",
+            "Toplam promosyon indirimleri": "0",
+            "Amazon ücretleri": "-75",
+            "Diğer": "0",
+            "Toplam (TRY)": "-75"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\FLO\\Gelen Faturalar\\fatura_detay_09-01-2025_11-12 (1).xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Worksheet",
+        "header_row_1based": 1,
+        "rows_sampled": 3,
+        "columns": [
+          "Fatura ID",
+          "Fatura No",
+          "Fatura Tarihi",
+          "Sipariş No",
+          "İşlem",
+          "İşlem tipi",
+          "İşlem zamanı",
+          "Miktar"
+        ],
+        "sample": [
+          {},
+          {
+            "Fatura ID": "33567",
+            "Fatura No": "F012025000262232",
+            "Fatura Tarihi": "2025-12-17 00:00:00",
+            "Sipariş No": "2421395933",
+            "İşlem": "penalty",
+            "İşlem tipi": "Ceza",
+            "İşlem zamanı": "2025-12-12 15:33:20",
+            "Miktar": "70"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Hepsiburada\\Gelen Faturalar\\aralikHbFatura.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sheet1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Hakediş Dönemi",
+          "Öngörülen Ödeme Tarihi",
+          "Durum",
+          "Ödeme Tarihi",
+          "Vade Tarihi",
+          "Kayıt Tarihi",
+          "Kayıt No",
+          "Kayıt Tipi",
+          "Ceza Tipi",
+          "Kayıt Türü",
+          "Kayıt Sınıfı",
+          "Sipariş No",
+          "Sipariş Tarihi",
+          "Ürün No (SKU)",
+          "Ürün Adı",
+          "Ürün Adedi",
+          "Birim Tutar",
+          "Liste Fiyatı",
+          "Tutar",
+          "Para Birimi",
+          "Vade Süresi",
+          "Paket No"
+        ],
+        "sample": [
+          {
+            "Hakediş Dönemi": "2024-12-18 - 2024-12-24",
+            "Öngörülen Ödeme Tarihi": "2024-12-24",
+            "Durum": "Ödendi",
+            "Ödeme Tarihi": "2024-12-24",
+            "Vade Tarihi": "2024-12-19",
+            "Kayıt Tarihi": "2024-12-01",
+            "Kayıt No": "5321478963",
+            "Kayıt Tipi": "Sipariş tutarı",
+            "Kayıt Türü": "Gelir",
+            "Kayıt Sınıfı": "Sipariş bazlı",
+            "Sipariş No": "4569874123",
+            "Sipariş Tarihi": "2024-11-26",
+            "Ürün No (SKU)": "HBV00004563256",
+            "Ürün Adı": "Puma Rs-X Efekt Expeditions.02",
+            "Ürün Adedi": "1",
+            "Birim Tutar": "0",
+            "Liste Fiyatı": "1326.36",
+            "Tutar": "1002.25",
+            "Para Birimi": "TL",
+            "Vade Süresi": "14",
+            "Paket No": "5321478963"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\ALE2024000023024--kargo-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4963254",
+            "Satıcı": "xyz şirketi",
+            "Cari Kod": "TRMKA-0005796",
+            "Sipariş Numarası": "2412622300119",
+            "Paket No": "5473662371355",
+            "Kargo Firması": "abc kargo",
+            "Desi": "2",
+            "İşlem Tipi": "İade Kargo Maliyeti",
+            "Sipariş Tarihi": "2024-12-22 23:17:11",
+            "Sevk Tarihi": "2024-12-23 19:11:58",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-30 11:33:07",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2025-01-22 12:55:20",
+            "Lcw Kargo Hakediş": "63.276",
+            "Fatura Numarası": "ALE2024000023024",
+            "Fatura Tarihi": "2024-12-31 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\BLE2024000016470--kargo-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4935691",
+            "Satıcı": "Xyz Şirketi",
+            "Cari Kod": "TRKAM-00059632",
+            "Sipariş Numarası": "2419341408235",
+            "Paket No": "541130147896245",
+            "Kargo Firması": "abc kargo",
+            "Desi": "2",
+            "İşlem Tipi": "Kargo Maliyeti",
+            "Sipariş Tarihi": "2024-11-30 14:03:29",
+            "Sevk Tarihi": "2024-12-03 18:06:21",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-04 16:02:59",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2024-12-18 16:02:59",
+            "Lcw Kargo Hakediş": "63.276",
+            "Fatura Numarası": "BLE2024000016470",
+            "Fatura Tarihi": "2024-12-08 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\BLE2024000017060--kargo-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4622405",
+            "Satıcı": "xyz Şirketi",
+            "Cari Kod": "TRKAM-0005963",
+            "Sipariş Numarası": "2492122301435",
+            "Paket No": "5462122091271",
+            "Kargo Firması": "Aras Kargo",
+            "Desi": "4",
+            "İşlem Tipi": "İade Kargo Maliyeti",
+            "Sipariş Tarihi": "2024-12-12 20:27:06",
+            "Sevk Tarihi": "2024-12-16 09:37:28",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-19 15:59:54",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2024-12-31 17:29:42",
+            "Lcw Kargo Hakediş": "90.024",
+            "Fatura Numarası": "BLE2024000017060",
+            "Fatura Tarihi": "2024-12-22 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\BLE2024000017625--kargo-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4729963",
+            "Satıcı": "xyz şirketi",
+            "Cari Kod": "TRKAM-0005987",
+            "Sipariş Numarası": "2419231926332",
+            "Paket No": "5419231992133",
+            "Kargo Firması": "abc kargo",
+            "Desi": "1",
+            "İşlem Tipi": "x  Maliyeti",
+            "Sipariş Tarihi": "2024-12-23 19:50:49",
+            "Sevk Tarihi": "2024-12-24 17:52:20",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-28 12:26:32",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2025-01-15 16:59:21",
+            "Lcw Kargo Hakediş": "65.436",
+            "Fatura Numarası": "BLE2024000017625",
+            "Fatura Tarihi": "2024-12-29 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\kargoF.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4768136",
+            "Satıcı": "xyz şirketi",
+            "Cari Kod": "TRKAM-00057741",
+            "Sipariş Numarası": "2412782401419",
+            "Paket No": "5412222301321",
+            "Kargo Firması": "abc kargo",
+            "Desi": "2",
+            "İşlem Tipi": "x maliyeti",
+            "Sipariş Tarihi": "2024-12-22 23:17:11",
+            "Sevk Tarihi": "2024-12-23 19:11:58",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-30 11:33:07",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2025-01-22 12:55:20",
+            "Lcw Kargo Hakediş": "56.276",
+            "Fatura Numarası": "AOM2024007965024",
+            "Fatura Tarihi": "2024-12-31 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Kargo Faturası\\LEW2024000016849--kargo-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Kargo Firması",
+          "Desi",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "İşlem Tarihi( Teslim Tarihi)",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Lcw Kargo Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "4647698",
+            "Satıcı": "xyz şirketi",
+            "Cari Kod": "TRKAM-0009778",
+            "Sipariş Numarası": "2412060003654",
+            "Paket No": "5412060007436",
+            "Kargo Firması": "Aras Kargo",
+            "Desi": "3",
+            "İşlem Tipi": "X maliyeti",
+            "Sipariş Tarihi": "2024-12-06 00:15:29",
+            "Sevk Tarihi": "2024-12-07 14:36:15",
+            "İşlem Tarihi( Teslim Tarihi)": "2024-12-14 13:57:33",
+            "Vade Günü": "7",
+            "Vade Tarihi": "2025-01-06 12:39:20",
+            "Lcw Kargo Hakediş": "89.024",
+            "Fatura Numarası": "ABC2024000016365",
+            "Fatura Tarihi": "2024-12-15 00:00:00"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Komisyon Faturası\\BLE2024000016805--komisyon-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Komisyon Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Barkod",
+          "Marka",
+          "Ürün Kategori",
+          "Ürün Adı",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "İşlem Tarihi",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Hakediş Haftası",
+          "Not",
+          "Muhasebe Günlük No",
+          "Peşin Ürün Tutarı",
+          "Taksitli Ürün Tutarı",
+          "LCW Taksit Farkı",
+          "LCWaikiki Sponsorluğu",
+          "Satıcı Sponsorluğu",
+          "Toplam İndirim",
+          "İndirim Açıklaması",
+          "Satış Tutarı",
+          "Komisyon Oranı",
+          "LCW Komisyon Hakediş",
+          "LCW Toplam Hakediş",
+          "Satıcı Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi",
+          "Yan Not",
+          "Mevzuata Göre Peşin Tutar",
+          "Mevzuata Göre Taksitli Tutar"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "7398963",
+            "Satıcı": "xyz Şirketi",
+            "Cari Kod": "TRKAM-0006537",
+            "Sipariş Numarası": "2412111932156",
+            "Paket No": "5412111796348",
+            "Barkod": "5715317896538",
+            "Marka": "a",
+            "Ürün Kategori": "x",
+            "Ürün Adı": "x",
+            "İşlem Tipi": "x",
+            "Sipariş Tarihi": "2024-12-11 19:36:33",
+            "İşlem Tarihi": "2024-12-16 15:27:48",
+            "Vade Günü": "14",
+            "Vade Tarihi": "2024-12-30 15:27:48",
+            "Hakediş Haftası": "30.12.2024-05.01.2025 Haftası Hakediş Ödemesi",
+            "Muhasebe Günlük No": "9123632",
+            "Peşin Ürün Tutarı": "2963.99",
+            "Taksitli Ürün Tutarı": "2963.99",
+            "LCW Taksit Farkı": "0",
+            "LCWaikiki Sponsorluğu": "120",
+            "Satıcı Sponsorluğu": "1600",
+            "Toplam İndirim": "1363.9899999999998",
+            "İndirim Açıklaması": "abc indirim",
+            "Satış Tutarı": "1396.3",
+            "Komisyon Oranı": "0.06",
+            "LCW Komisyon Hakediş": "56.0995",
+            "LCW Toplam Hakediş": "56.0995",
+            "Satıcı Hakediş": "1103.8905",
+            "Fatura Numarası": "ABC2024000016365",
+            "Fatura Tarihi": "2024-12-22 00:00:00",
+            "Mevzuata Göre Peşin Tutar": "2231.99",
+            "Mevzuata Göre Taksitli Tutar": "2231.99"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Komisyon Faturası\\BLE2024000017377--komisyon-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Komisyon Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Barkod",
+          "Marka",
+          "Ürün Kategori",
+          "Ürün Adı",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "İşlem Tarihi",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Hakediş Haftası",
+          "Not",
+          "Muhasebe Günlük No",
+          "Peşin Ürün Tutarı",
+          "Taksitli Ürün Tutarı",
+          "LCW Taksit Farkı",
+          "LCWaikiki Sponsorluğu",
+          "Satıcı Sponsorluğu",
+          "Toplam İndirim",
+          "İndirim Açıklaması",
+          "Satış Tutarı",
+          "Komisyon Oranı",
+          "LCW Komisyon Hakediş",
+          "LCW Toplam Hakediş",
+          "Satıcı Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi",
+          "Yan Not",
+          "Mevzuata Göre Peşin Tutar",
+          "Mevzuata Göre Taksitli Tutar"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "7457856",
+            "Satıcı": "XYZ şirketi",
+            "Cari Kod": "TRKAM-0009632",
+            "Sipariş Numarası": "2412190064528",
+            "Paket No": "5412190063987",
+            "Barkod": "5712830789651",
+            "Marka": "x",
+            "Ürün Kategori": "x",
+            "Ürün Adı": "x",
+            "İşlem Tipi": "x",
+            "Sipariş Tarihi": "2024-12-19 00:02:35",
+            "İşlem Tarihi": "2024-12-23 11:56:48",
+            "Vade Günü": "28",
+            "Vade Tarihi": "2025-01-20 11:56:48",
+            "Hakediş Haftası": "20.01.2025-26.01.2025 Haftası Hakediş Ödemesi",
+            "Muhasebe Günlük No": "926613",
+            "Peşin Ürün Tutarı": "2019.99",
+            "Taksitli Ürün Tutarı": "2019.99",
+            "LCW Taksit Farkı": "0",
+            "LCWaikiki Sponsorluğu": "0",
+            "Satıcı Sponsorluğu": "0",
+            "Toplam İndirim": "0",
+            "Satış Tutarı": "3264",
+            "Komisyon Oranı": "0.09",
+            "LCW Komisyon Hakediş": "102",
+            "LCW Toplam Hakediş": "102",
+            "Satıcı Hakediş": "1300",
+            "Fatura Numarası": "ABC6024000017377",
+            "Fatura Tarihi": "2024-12-29 00:00:00",
+            "Mevzuata Göre Peşin Tutar": "2936.99",
+            "Mevzuata Göre Taksitli Tutar": "2936.99"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Komisyon Faturası\\komfatura.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Komisyon Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Barkod",
+          "Marka",
+          "Ürün Kategori",
+          "Ürün Adı",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "İşlem Tarihi",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Hakediş Haftası",
+          "Not",
+          "Muhasebe Günlük No",
+          "Peşin Ürün Tutarı",
+          "Taksitli Ürün Tutarı",
+          "LCW Taksit Farkı",
+          "LCWaikiki Sponsorluğu",
+          "Satıcı Sponsorluğu",
+          "Toplam İndirim",
+          "İndirim Açıklaması",
+          "Satış Tutarı",
+          "Komisyon Oranı",
+          "LCW Komisyon Hakediş",
+          "LCW Toplam Hakediş",
+          "Satıcı Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi",
+          "Yan Not",
+          "Mevzuata Göre Peşin Tutar",
+          "Mevzuata Göre Taksitli Tutar"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "7197654",
+            "Satıcı": "xyz şirketi",
+            "Cari Kod": "TRKAM-0006325",
+            "Sipariş Numarası": "2411261796325",
+            "Paket No": "5411261763214",
+            "Barkod": "8682902896587",
+            "Marka": "x",
+            "Ürün Kategori": "x",
+            "Ürün Adı": "x",
+            "İşlem Tipi": "x",
+            "Sipariş Tarihi": "2024-11-26 17:32:39",
+            "İşlem Tarihi": "2024-12-02 13:51:42",
+            "Vade Günü": "14",
+            "Vade Tarihi": "2024-12-16 13:51:42",
+            "Hakediş Haftası": "16.12.2024-22.12.2024 Haftası Hakediş Ödemesi",
+            "Muhasebe Günlük No": "880654",
+            "Peşin Ürün Tutarı": "1496.95",
+            "Taksitli Ürün Tutarı": "1496.95",
+            "LCW Taksit Farkı": "0",
+            "LCWaikiki Sponsorluğu": "0",
+            "Satıcı Sponsorluğu": "0",
+            "Toplam İndirim": "0",
+            "Satış Tutarı": "1496.95",
+            "Komisyon Oranı": "0.06",
+            "LCW Komisyon Hakediş": "222",
+            "LCW Toplam Hakediş": "222",
+            "Satıcı Hakediş": "1272",
+            "Fatura Numarası": "ABX2024003254211",
+            "Fatura Tarihi": "2024-12-08 00:00:00",
+            "Mevzuata Göre Peşin Tutar": "16354",
+            "Mevzuata Göre Taksitli Tutar": "16354"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\LCW\\Gelen Faturalar\\Komisyon Faturası\\LEW2024000016598--komisyon-fatura-detayı-09-01-2025.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Komisyon Fatura Detayı",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İşlem Kayıt No",
+          "Satıcı",
+          "Cari Kod",
+          "Sipariş Numarası",
+          "Paket No",
+          "Barkod",
+          "Marka",
+          "Ürün Kategori",
+          "Ürün Adı",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "İşlem Tarihi",
+          "Vade Günü",
+          "Vade Tarihi",
+          "Hakediş Haftası",
+          "Not",
+          "Muhasebe Günlük No",
+          "Peşin Ürün Tutarı",
+          "Taksitli Ürün Tutarı",
+          "LCW Taksit Farkı",
+          "LCWaikiki Sponsorluğu",
+          "Satıcı Sponsorluğu",
+          "Toplam İndirim",
+          "İndirim Açıklaması",
+          "Satış Tutarı",
+          "Komisyon Oranı",
+          "LCW Komisyon Hakediş",
+          "LCW Toplam Hakediş",
+          "Satıcı Hakediş",
+          "Fatura Numarası",
+          "Fatura Tarihi",
+          "Yan Not",
+          "Mevzuata Göre Peşin Tutar",
+          "Mevzuata Göre Taksitli Tutar"
+        ],
+        "sample": [
+          {
+            "İşlem Kayıt No": "7297965",
+            "Satıcı": "XYZ şirketi",
+            "Cari Kod": "TRKAM-0005963",
+            "Sipariş Numarası": "2412060009874",
+            "Paket No": "5412060965872",
+            "Barkod": "5715504963212",
+            "Marka": "x",
+            "Ürün Kategori": "x",
+            "Ürün Adı": "x",
+            "İşlem Tipi": "x",
+            "Sipariş Tarihi": "2024-12-06 00:15:29",
+            "İşlem Tarihi": "2024-12-09 12:39:20",
+            "Vade Günü": "28",
+            "Vade Tarihi": "2025-01-06 12:39:20",
+            "Hakediş Haftası": "06.01.2025-12.01.2025 Haftası Hakediş Ödemesi",
+            "Muhasebe Günlük No": "896325",
+            "Peşin Ürün Tutarı": "2563",
+            "Taksitli Ürün Tutarı": "2563",
+            "LCW Taksit Farkı": "0",
+            "LCWaikiki Sponsorluğu": "0",
+            "Satıcı Sponsorluğu": "0",
+            "Toplam İndirim": "0",
+            "Satış Tutarı": "2639",
+            "Komisyon Oranı": "0.09",
+            "LCW Komisyon Hakediş": "263",
+            "LCW Toplam Hakediş": "263",
+            "Satıcı Hakediş": "2363",
+            "Fatura Numarası": "ABD2027896016598",
+            "Fatura Tarihi": "2024-12-15 00:00:00",
+            "Mevzuata Göre Peşin Tutar": "2963.99",
+            "Mevzuata Göre Taksitli Tutar": "2456.99"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\n11\\kargo fatura\\OzelKargoKampanyasi (5).xls",
+    "suffix": ".xls",
+    "sheets": [],
+    "error": "XLS format; xlrd yok, okunamadi"
+  },
+  {
+    "file": "Satış Kanalları\\n11\\komisyon fatura\\Komisyon_Fatura_SPORTHINK_2024_12.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sheet0",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Mağaza Adı",
+          "Sipariş Numarası",
+          "Sipariş Kalem ID",
+          "İşlem Tipi Tanımı",
+          "Sipariş Tamamlanma Tarihi",
+          "Sipariş Tutarı",
+          "Komisyon Oranı %",
+          "Komisyon Bedeli",
+          "Pazarlama Hizmet Bedeli",
+          "Pazaryeri Hizmet Bedeli",
+          "Vade Farkı Yansıtması",
+          "Sözleşmeye Bağlı Ceza Bedeli",
+          "Reklam Bedeli",
+          "K. Fatura Numarası",
+          "Satıcı Hakediş Tutarı",
+          "Hakediş Transfer Tarihi"
+        ],
+        "sample": [
+          {
+            "Fatura Türü": "axyz",
+            "Fatura Tarihi": "2024-12-31 00:00:00",
+            "Mağaza Adı": "a",
+            "Sipariş Numarası": "296194546325",
+            "Sipariş Kalem ID": "399196325",
+            "İşlem Tipi Tanımı": "abc",
+            "Sipariş Tamamlanma Tarihi": "09.12.2024",
+            "Sipariş Tutarı": "0,00",
+            "Komisyon Oranı %": "0",
+            "Komisyon Bedeli": "62.89",
+            "Pazarlama Hizmet Bedeli": "0,00",
+            "Pazaryeri Hizmet Bedeli": "0,00",
+            "Vade Farkı Yansıtması": "0,00",
+            "Sözleşmeye Bağlı Ceza Bedeli": "0,00",
+            "Reklam Bedeli": "0,00",
+            "K. Fatura Numarası": "ABC202400034563",
+            "Satıcı Hakediş Tutarı": "0,00",
+            "Hakediş Transfer Tarihi": "00.00.0000"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Pazarama\\Gelen Faturalar\\kargo\\komisyonKargo1.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "SatıcıFatura",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Bayi Kodu",
+          "Firma Adı",
+          "Fatura No",
+          "Fatura Tarihi",
+          "Dönem",
+          "VKN",
+          "Komisyon Tutar",
+          "Kargo Tutarı",
+          "Enterasyon Bedeli"
+        ],
+        "sample": [
+          {
+            "Bayi Kodu": "21967 - 25297",
+            "Firma Adı": "Sporthink",
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Dönem": "202412",
+            "VKN": "3090342602",
+            "Komisyon Tutar": "11694.4",
+            "Kargo Tutarı": "1361.62",
+            "Enterasyon Bedeli": "669.5"
+          }
+        ]
+      },
+      {
+        "sheet": "SatıcıFaturaDetay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Tarihi",
+          "Fatura Türü",
+          "Bayi Kodu",
+          "Satıcı Adı",
+          "Sipariş Numarası",
+          "Sipariş Durumu",
+          "Sipariş Tarihi",
+          "Karşı İşlem Id",
+          "Sipariş Tutarı",
+          "Satıcı Komisyon Tutarı",
+          "Entegrasyon Bedeli",
+          "Etm Tutarı",
+          "Etm Komisyonu"
+        ],
+        "sample": [
+          {
+            "Fatura No": "XYZ2024003216654",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "x",
+            "Bayi Kodu": "26547 - 24523",
+            "Satıcı Adı": "x",
+            "Sipariş Numarası": "472112365",
+            "Sipariş Durumu": "x",
+            "Sipariş Tarihi": "13.12.2024",
+            "Karşı İşlem Id": "klm91e22-d43a-4abc-8ece-63dd1b74b75e",
+            "Sipariş Tutarı": "1763.99",
+            "Satıcı Komisyon Tutarı": "-88.4",
+            "Entegrasyon Bedeli": "-4.5",
+            "Etm Tutarı": "325",
+            "Etm Komisyonu": "-27.13"
+          }
+        ]
+      },
+      {
+        "sheet": "KargoFaturaDetay",
+        "header_row_1based": 1,
+        "rows_sampled": 22,
+        "columns": [
+          "Fatura No",
+          "Fatura Tarihi",
+          "Fatura Türü",
+          "Kargo Firması",
+          "Bayi Kodu",
+          "Sipariş Durumu",
+          "Dönem",
+          "Sipariş Numarası",
+          "Desi",
+          "Satıcı Borcu",
+          "Gönderi Numarası",
+          "Takip Numarasıi"
+        ],
+        "sample": [
+          {
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "Kargo",
+            "Kargo Firması": "Yurtici",
+            "Bayi Kodu": "25297",
+            "Sipariş Durumu": "İade",
+            "Dönem": "202412",
+            "Sipariş Numarası": "187589198",
+            "Desi": "3.00",
+            "Satıcı Borcu": "77.03",
+            "Gönderi Numarası": "PZ13263591472",
+            "Takip Numarasıi": "601789331017"
+          },
+          {
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "Kargo",
+            "Kargo Firması": "Yurtici",
+            "Bayi Kodu": "25297",
+            "Sipariş Durumu": "İade",
+            "Dönem": "202412",
+            "Sipariş Numarası": "846129891",
+            "Desi": "3.00",
+            "Satıcı Borcu": "77.03",
+            "Gönderi Numarası": "PZ13658670967",
+            "Takip Numarasıi": "610481262777"
+          }
+        ]
+      },
+      {
+        "sheet": "Tedarik ve Geciken Siparişer",
+        "header_row_1based": 1,
+        "rows_sampled": 1,
+        "columns": [
+          "Sipariş Tarihi",
+          "Sipariş No",
+          "Ürün Adı",
+          "Ürün Adet",
+          "Ceza Ana Kategorisi",
+          "İndirimli Ürün Birim Fiyat",
+          "Toplam Fiyat",
+          "Ceza Tutarı"
+        ],
+        "sample": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Pazarama\\Gelen Faturalar\\komisyon\\komisyonKargo.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "SatıcıFatura",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Bayi Kodu",
+          "Firma Adı",
+          "Fatura No",
+          "Fatura Tarihi",
+          "Dönem",
+          "VKN",
+          "Komisyon Tutar",
+          "Kargo Tutarı",
+          "Enterasyon Bedeli"
+        ],
+        "sample": [
+          {
+            "Bayi Kodu": "21967 - 25297",
+            "Firma Adı": "Sporthink",
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Dönem": "202412",
+            "VKN": "3090342602",
+            "Komisyon Tutar": "11694.4",
+            "Kargo Tutarı": "1361.62",
+            "Enterasyon Bedeli": "669.5"
+          }
+        ]
+      },
+      {
+        "sheet": "SatıcıFaturaDetay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Tarihi",
+          "Fatura Türü",
+          "Bayi Kodu",
+          "Satıcı Adı",
+          "Sipariş Numarası",
+          "Sipariş Durumu",
+          "Sipariş Tarihi",
+          "Karşı İşlem Id",
+          "Sipariş Tutarı",
+          "Satıcı Komisyon Tutarı",
+          "Entegrasyon Bedeli",
+          "Etm Tutarı",
+          "Etm Komisyonu"
+        ],
+        "sample": [
+          {
+            "Fatura No": "XYZ2024045696324",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "X",
+            "Bayi Kodu": "98477 - 25789",
+            "Satıcı Adı": "X",
+            "Sipariş Numarası": "472174123",
+            "Sipariş Durumu": "x",
+            "Sipariş Tarihi": "13.12.2024",
+            "Karşı İşlem Id": "abc91e22-d43a-4efd-8ece-65dd1b05b32e",
+            "Sipariş Tutarı": "1786.99",
+            "Satıcı Komisyon Tutarı": "-88.4",
+            "Entegrasyon Bedeli": "-4.5",
+            "Etm Tutarı": "325",
+            "Etm Komisyonu": "-29.13"
+          }
+        ]
+      },
+      {
+        "sheet": "KargoFaturaDetay",
+        "header_row_1based": 1,
+        "rows_sampled": 22,
+        "columns": [
+          "Fatura No",
+          "Fatura Tarihi",
+          "Fatura Türü",
+          "Kargo Firması",
+          "Bayi Kodu",
+          "Sipariş Durumu",
+          "Dönem",
+          "Sipariş Numarası",
+          "Desi",
+          "Satıcı Borcu",
+          "Gönderi Numarası",
+          "Takip Numarasıi"
+        ],
+        "sample": [
+          {
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "Kargo",
+            "Kargo Firması": "Yurtici",
+            "Bayi Kodu": "25297",
+            "Sipariş Durumu": "İade",
+            "Dönem": "202412",
+            "Sipariş Numarası": "187589198",
+            "Desi": "3.00",
+            "Satıcı Borcu": "77.03",
+            "Gönderi Numarası": "PZ13263591472",
+            "Takip Numarasıi": "601789331017"
+          },
+          {
+            "Fatura No": "TDK2024000107244",
+            "Fatura Tarihi": "31.12.2024",
+            "Fatura Türü": "Kargo",
+            "Kargo Firması": "Yurtici",
+            "Bayi Kodu": "25297",
+            "Sipariş Durumu": "İade",
+            "Dönem": "202412",
+            "Sipariş Numarası": "846129891",
+            "Desi": "3.00",
+            "Satıcı Borcu": "77.03",
+            "Gönderi Numarası": "PZ13658670967",
+            "Takip Numarasıi": "610481262777"
+          }
+        ]
+      },
+      {
+        "sheet": "Tedarik ve Geciken Siparişer",
+        "header_row_1based": 1,
+        "rows_sampled": 1,
+        "columns": [
+          "Sipariş Tarihi",
+          "Sipariş No",
+          "Ürün Adı",
+          "Ürün Adet",
+          "Ceza Ana Kategorisi",
+          "İndirimli Ürün Birim Fiyat",
+          "Toplam Fiyat",
+          "Ceza Tutarı"
+        ],
+        "sample": []
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\kargo faturaları\\kargo1.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo fatura detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Gönderi Ücreti (KDV Dahil)",
+          "Desi",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Kargo Firması",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "Sipariş Tutarı",
+          "Min Kampanya Baremi",
+          "Ürün Adedi",
+          "Butik ID",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021096547",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-02 00:00:00",
+            "Satıcı ID": "708324",
+            "Gönderi Ücreti (KDV Dahil)": "97.13",
+            "Desi": "3",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "9593945621",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "7330018429685210",
+            "Kargo Firması": "x",
+            "Sipariş Tarihi": "2024-11-06 16:56:49.450000",
+            "Sevk Tarihi": "2024-11-07 17:05:00",
+            "Sipariş Tutarı": "1365.35",
+            "Min Kampanya Baremi": "230",
+            "Ürün Adedi": "1"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\kargo faturaları\\kargo10.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo fatura detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Gönderi Ücreti (KDV Dahil)",
+          "Desi",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Kargo Firması",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "Sipariş Tutarı",
+          "Min Kampanya Baremi",
+          "Ürün Adedi",
+          "Butik ID",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021432015",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-05 00:00:00",
+            "Satıcı ID": "106325",
+            "Gönderi Ücreti (KDV Dahil)": "52.13",
+            "Desi": "3",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "960765412",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "7330018623074120",
+            "Kargo Firması": "x",
+            "Sipariş Tarihi": "2024-11-11 21:10:43.202000",
+            "Sevk Tarihi": "2024-11-14 15:36:00",
+            "Sipariş Tutarı": "1361.41",
+            "Min Kampanya Baremi": "220",
+            "Ürün Adedi": "1"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\kargo faturaları\\kargo11.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Kargo fatura detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Gönderi Ücreti (KDV Dahil)",
+          "Desi",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Kargo Firması",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "Sipariş Tutarı",
+          "Min Kampanya Baremi",
+          "Ürün Adedi",
+          "Butik ID",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABX2024021426321",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-05 00:00:00",
+            "Satıcı ID": "108423",
+            "Gönderi Ücreti (KDV Dahil)": "56.13",
+            "Desi": "5",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "6518457777",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "7330018776463250",
+            "Kargo Firması": "x",
+            "Sipariş Tarihi": "2024-11-17 21:19:09.838000",
+            "Sevk Tarihi": "2024-11-18 16:37:00",
+            "Sipariş Tutarı": "1423.91",
+            "Min Kampanya Baremi": "220",
+            "Ürün Adedi": "1"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\komisyon faturaları\\SaticiFatura_29014207_08.12.2024-14.17.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Settlements",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Kayıt No",
+          "İşlem Tipi",
+          "Sipariş No",
+          "Sipariş Tarihi",
+          "Ülke",
+          "İşlem Tarihi",
+          "Satıcı",
+          "Satıcı Cari Adı",
+          "Ürün Adı",
+          "Barkod",
+          "Komisyon Oranı",
+          "Trendyol Hakediş",
+          "Satıcı Hakediş",
+          "Vade Süresi",
+          "Teslim Tarihi",
+          "Vade tarihi",
+          "Toplam Tutar",
+          "Müşteri Ad",
+          "Müşteri Soyad",
+          "Mağaza No'su",
+          "Mağaza Adı",
+          "Mağaza Adresi"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024005459863",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-07 00:00:00",
+            "Kayıt No": "6969106532",
+            "İşlem Tipi": "c",
+            "Sipariş No": "9640323216",
+            "Sipariş Tarihi": "28.11.2024 22:28",
+            "Ülke": "c",
+            "İşlem Tarihi": "28.11.2024 22:28",
+            "Satıcı": "yfyug",
+            "Satıcı Cari Adı": "vjg",
+            "Ürün Adı": "jvj",
+            "Barkod": "1200633281263",
+            "Komisyon Oranı": "2.6",
+            "Trendyol Hakediş": "13.09",
+            "Satıcı Hakediş": "496.97",
+            "Vade Süresi": "11",
+            "Teslim Tarihi": "06.12.2024 11:51",
+            "Vade tarihi": "15.12.2024 11:51",
+            "Toplam Tutar": "532.06",
+            "Müşteri Ad": "El****",
+            "Müşteri Soyad": "Sa****"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\komisyon faturaları\\SaticiFatura_29014208_08.12.2024-14.45 (1).xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Settlements",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Kayıt No",
+          "İşlem Tipi",
+          "Sipariş No",
+          "Sipariş Tarihi",
+          "Ülke",
+          "İşlem Tarihi",
+          "Satıcı",
+          "Satıcı Cari Adı",
+          "Ürün Adı",
+          "Barkod",
+          "Komisyon Oranı",
+          "Trendyol Hakediş",
+          "Satıcı Hakediş",
+          "Vade Süresi",
+          "Teslim Tarihi",
+          "Vade tarihi",
+          "Toplam Tutar",
+          "Müşteri Ad",
+          "Müşteri Soyad",
+          "Mağaza No'su",
+          "Mağaza Adı",
+          "Mağaza Adresi"
+        ],
+        "sample": [
+          {
+            "Fatura No": "XYZ2024005064563",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-07 00:00:00",
+            "Kayıt No": "4563233215",
+            "İşlem Tipi": "X",
+            "Sipariş No": "7838236654",
+            "Sipariş Tarihi": "28.11.2024 07:50",
+            "Ülke": "X",
+            "İşlem Tarihi": "28.11.2024 07:50",
+            "Satıcı": "X",
+            "Satıcı Cari Adı": "X",
+            "Ürün Adı": "X",
+            "Barkod": "456502304215",
+            "Komisyon Oranı": "2.5",
+            "Trendyol Hakediş": "12.34",
+            "Satıcı Hakediş": "963.57",
+            "Vade Süresi": "12",
+            "Teslim Tarihi": "06.12.2024 11:35",
+            "Vade tarihi": "15.12.2024 11:35",
+            "Toplam Tutar": "456.94",
+            "Müşteri Ad": "De****",
+            "Müşteri Soyad": "Fe****"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\komisyon faturaları\\SaticiFatura_29014209_08.12.2024-14.44.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Settlements",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Kayıt No",
+          "İşlem Tipi",
+          "Sipariş No",
+          "Sipariş Tarihi",
+          "Ülke",
+          "İşlem Tarihi",
+          "Satıcı",
+          "Satıcı Cari Adı",
+          "Ürün Adı",
+          "Barkod",
+          "Komisyon Oranı",
+          "Trendyol Hakediş",
+          "Satıcı Hakediş",
+          "Vade Süresi",
+          "Teslim Tarihi",
+          "Vade tarihi",
+          "Toplam Tutar",
+          "Müşteri Ad",
+          "Müşteri Soyad",
+          "Mağaza No'su",
+          "Mağaza Adı",
+          "Mağaza Adresi"
+        ],
+        "sample": [
+          {
+            "Fatura No": "XYZ2024005064235",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-07 00:00:00",
+            "Kayıt No": "6964754563",
+            "İşlem Tipi": "x",
+            "Sipariş No": "4638777456",
+            "Sipariş Tarihi": "28.11.2024 13:06",
+            "Ülke": "x",
+            "İşlem Tarihi": "28.11.2024 13:06",
+            "Satıcı": "x",
+            "Satıcı Cari Adı": "x",
+            "Ürün Adı": "x",
+            "Barkod": "6358686662141",
+            "Komisyon Oranı": "9.24",
+            "Trendyol Hakediş": "135.51",
+            "Satıcı Hakediş": "1453.49",
+            "Vade Süresi": "11",
+            "Teslim Tarihi": "06.12.2024 16:05",
+            "Vade tarihi": "15.12.2024 16:05",
+            "Toplam Tutar": "1263",
+            "Müşteri Ad": "fa****",
+            "Müşteri Soyad": "ha****"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\kusurlu ürün\\detaylar - 2025-01-15T135405.251.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "İade Kodu",
+          "Fatura Tipi",
+          "Ürün Adedi",
+          "Ürün Tutarı",
+          "Kesilen Bedel",
+          "Not"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021257450",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-04 00:00:00",
+            "Satıcı ID": "106932",
+            "Satıcı İsmi": "X",
+            "Sipariş No": "9624736987",
+            "İade Kodu": "7340019017332650",
+            "Fatura Tipi": "X",
+            "Ürün Adedi": "1",
+            "Ürün Tutarı": "3265.67",
+            "Kesilen Bedel": "210"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\kusurlu ürün\\detaylar - 2025-01-15T135757.745.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "İade Kodu",
+          "Fatura Tipi",
+          "Ürün Adedi",
+          "Ürün Tutarı",
+          "Kesilen Bedel",
+          "Not"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024045698996",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-11 00:00:00",
+            "Satıcı ID": "205694",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "9635101236",
+            "İade Kodu": "7630789105965090",
+            "Fatura Tipi": "x",
+            "Ürün Adedi": "1",
+            "Ürün Tutarı": "1547.96",
+            "Kesilen Bedel": "130"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\platform hizmet bedeli\\detaylar - 2025-01-14T142246.301.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "İşlem Bedeli Detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Kargo Firması",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "Sipariş Tutarı",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC202403254476",
+            "Fatura Türü": "Platform Hizmet Bedeli",
+            "Fatura Tarihi": "2024-12-02 00:00:00",
+            "Satıcı ID": "101265",
+            "Ek Ücret": "6.39",
+            "Satıcı İsmi": "X",
+            "Sipariş No": "9593126987",
+            "Gönderi/İade": "X",
+            "Gönderi/İade Kodu": "6325418422313000",
+            "Kargo Firması": "X",
+            "Sipariş Tarihi": "2024-11-06 16:56:49.450000",
+            "Sevk Tarihi": "2024-11-07 17:05:00",
+            "Sipariş Tutarı": "1463.35",
+            "Açıklama": "abc xyz"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\platform hizmet bedeli\\detaylar - 2025-01-14T142436.601.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "İşlem Bedeli Detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Kargo Firması",
+          "Sipariş Tarihi",
+          "Sevk Tarihi",
+          "Sipariş Tutarı",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024432695872",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-02 00:00:00",
+            "Satıcı ID": "106987",
+            "Ek Ücret": "6.39",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "6324178841",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "4523618538930610",
+            "Kargo Firması": "x",
+            "Sipariş Tarihi": "2024-11-09 19:12:27.134000",
+            "Sevk Tarihi": "2024-11-11 18:18:00",
+            "Sipariş Tutarı": "2354",
+            "Açıklama": "abc bdhs"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\termin gecikme bedeli\\detaylar - 2025-01-15T141545.355.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi Kodu",
+          "Sipariş Tarihi",
+          "Kargo Cıkış/İptal Tarihi/Terminin Dolduğu Tarih",
+          "Termin",
+          "Fatura Tipi",
+          "Geciken Ürün Adedi",
+          "Geciken Ürün Tutarı",
+          "Kesilen Bedel"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021215963",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-04 00:00:00",
+            "Satıcı ID": "635494",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "9623736985",
+            "Gönderi Kodu": "6325418851346630",
+            "Sipariş Tarihi": "20.11.2024",
+            "Kargo Cıkış/İptal Tarihi/Terminin Dolduğu Tarih": "25.11.2024",
+            "Termin": "3",
+            "Fatura Tipi": "x",
+            "Geciken Ürün Adedi": "1",
+            "Geciken Ürün Tutarı": "2964.56",
+            "Kesilen Bedel": "85"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\termin gecikme bedeli\\detaylar - 2025-01-15T142432.473.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi Kodu",
+          "Sipariş Tarihi",
+          "Kargo Cıkış/İptal Tarihi/Terminin Dolduğu Tarih",
+          "Termin",
+          "Fatura Tipi",
+          "Geciken Ürün Adedi",
+          "Geciken Ürün Tutarı",
+          "Kesilen Bedel"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021939654",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-11 00:00:00",
+            "Satıcı ID": "632544",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "4635604421",
+            "Gönderi Kodu": "8563219042593260",
+            "Sipariş Tarihi": "27.11.2024",
+            "Kargo Cıkış/İptal Tarihi/Terminin Dolduğu Tarih": "02.12.2024",
+            "Termin": "3",
+            "Fatura Tipi": "x",
+            "Geciken Ürün Adedi": "2",
+            "Geciken Ürün Tutarı": "2985.47",
+            "Kesilen Bedel": "63"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\uluslararası hizmet bedeli\\108994-48-111-1733346000000.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Micro Export Fees",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Sipariş No",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Vade Tarihi",
+          "Affiliate",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021316325",
+            "Fatura Türü": "xcs",
+            "Fatura Tarihi": "2024-12-05 00:00:00",
+            "Satıcı ID": "236594",
+            "Ek Ücret": "236.13",
+            "Sipariş No": "3214552587",
+            "İşlem Tipi": "x",
+            "Sipariş Tarihi": "2024-11-10 18:24:23",
+            "Vade Tarihi": "2024-12-04 21:00:00",
+            "Affiliate": "abc",
+            "Açıklama": "abc xyz"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\uluslararası hizmet bedeli\\108994-85-222-1733346000000 (2).xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Micro Export Fees",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Sipariş No",
+          "İşlem Tipi",
+          "Sipariş Tarihi",
+          "Vade Tarihi",
+          "Affiliate",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "XYZ2024000256921",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-05 00:00:00",
+            "Satıcı ID": "156321",
+            "Ek Ücret": "50.4",
+            "Sipariş No": "6320959785",
+            "İşlem Tipi": "X",
+            "Sipariş Tarihi": "2024-11-13 09:20:57",
+            "Vade Tarihi": "2024-12-04 21:00:00",
+            "Affiliate": "X",
+            "Açıklama": "X"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\yanlış ürün\\detaylar - 2025-01-15T135515.807.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "İade Kodu",
+          "Fatura Tipi",
+          "Ürün Adedi",
+          "Ürün Tutarı",
+          "Kesilen Bedel"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021842365",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-11 00:00:00",
+            "Satıcı ID": "745632",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "7454665934",
+            "İade Kodu": "8632519250888990",
+            "Fatura Tipi": "x",
+            "Ürün Adedi": "2",
+            "Ürün Tutarı": "463.94",
+            "Kesilen Bedel": "63"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\yanlış ürün\\Kopya detaylar - 2025-01-15T135042.188.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Ceza faturası detay",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "İade Kodu",
+          "Fatura Tipi",
+          "Ürün Adedi",
+          "Ürün Tutarı",
+          "Kesilen Bedel"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021278963",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-04 00:00:00",
+            "Satıcı ID": "965412",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "4635448920",
+            "İade Kodu": "7330018866763520",
+            "Fatura Tipi": "x",
+            "Ürün Adedi": "2",
+            "Ürün Tutarı": "2321.6",
+            "Kesilen Bedel": "130"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\yurtdışı operasyon bedeli\\prod_2024-12-04_108994_AE_TRY_RETURN_FEE_1424884_detaylar.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "fee",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Ürün Bedeli",
+          "Net Satış Tutarı",
+          "Hesaplama Oranı",
+          "İade Onay Tarihi",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024021218084",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-04 00:00:00",
+            "Satıcı ID": "542365",
+            "Ek Ücret": "345.17",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "9611773563",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "7454945636",
+            "Ürün Bedeli": "2631.14",
+            "Net Satış Tutarı": "2419.99",
+            "Hesaplama Oranı": "13",
+            "İade Onay Tarihi": "2024-12-01 16:48:07.211000",
+            "Açıklama": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\yurtdışı operasyon bedeli\\prod_2024-12-11_108994_AE_TRY_RETURN_FEE_1455199_detaylar.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "fee",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Ürün Bedeli",
+          "Net Satış Tutarı",
+          "Hesaplama Oranı",
+          "İade Onay Tarihi",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC2024965906541",
+            "Fatura Türü": "X",
+            "Fatura Tarihi": "2024-12-11 00:00:00",
+            "Satıcı ID": "452136",
+            "Ek Ücret": "210.19",
+            "Satıcı İsmi": "X",
+            "Sipariş No": "9617247853",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "4116326987",
+            "Ürün Bedeli": "1321.93",
+            "Net Satış Tutarı": "1114.6",
+            "Hesaplama Oranı": "18",
+            "İade Onay Tarihi": "2024-12-03 16:50:17.571000",
+            "Açıklama": "dfsdfse"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen faturalar\\yurtdışı operasyon bedeli\\prod_2024-12-11_108994_SA_TRY_RETURN_FEE_1446581_detaylar.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "fee",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Fatura No",
+          "Fatura Türü",
+          "Fatura Tarihi",
+          "Satıcı ID",
+          "Ek Ücret",
+          "Satıcı İsmi",
+          "Sipariş No",
+          "Gönderi/İade",
+          "Gönderi/İade Kodu",
+          "Ürün Bedeli",
+          "Net Satış Tutarı",
+          "Hesaplama Oranı",
+          "İade Onay Tarihi",
+          "Açıklama"
+        ],
+        "sample": [
+          {
+            "Fatura No": "ABC20240218456987",
+            "Fatura Türü": "x",
+            "Fatura Tarihi": "2024-12-11 00:00:00",
+            "Satıcı ID": "145632",
+            "Ek Ücret": "163.36",
+            "Satıcı İsmi": "x",
+            "Sipariş No": "96325334103",
+            "Gönderi/İade": "x",
+            "Gönderi/İade Kodu": "4101892547",
+            "Ürün Bedeli": "836.81",
+            "Net Satış Tutarı": "1139",
+            "Hesaplama Oranı": "15",
+            "İade Onay Tarihi": "2024-12-03 16:41:55.329000",
+            "Açıklama": "sdvfsvs"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Satış Kanalları\\Trendyol\\gelen listeler\\iptal listesi\\prod_108994_ef24e236-8371-47fc-b2f1-e0d42a90b926_İptalleriniz_10.02.2025-09.20.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "İptaller",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Barkod",
+          "Paket No",
+          "Sipariş Tarihi",
+          "İptal Tarihi",
+          "Kargo Kodu",
+          "Sipariş Numarası",
+          "Alıcı",
+          "Ürün Adı",
+          "Marka",
+          "Stok Kodu",
+          "Adet",
+          "Birim Fiyatı",
+          "İptal Tipi",
+          "İptal Nedeni"
+        ],
+        "sample": [
+          {
+            "Barkod": "134375744569",
+            "Paket No": "2689463457",
+            "Sipariş Tarihi": "30.11.2024 09:48",
+            "İptal Tarihi": "01.12.2024 00:02",
+            "Kargo Kodu": "6330019138965410",
+            "Sipariş Numarası": "8933943516",
+            "Alıcı": "x",
+            "Ürün Adı": "x",
+            "Marka": "x",
+            "Stok Kodu": "186375765649",
+            "Adet": "1",
+            "Birim Fiyatı": "3634.25",
+            "İptal Tipi": "x",
+            "İptal Nedeni": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Satış Tablosu\\Gelen Satış Tablosu\\Barkodlu Satış\\barkdluSatis.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Satış Yeri Kodu",
+          "Satış Yeri Adı",
+          "Belge Takip No",
+          "Satılan Ürün Barkodu",
+          "Satılan Ürün Tutarı- Kdvsiz",
+          "Satılan Ürün Kdv Tutarı",
+          "Satılan Ürün Tutarı-Kdvli",
+          "Satılan Alınan Ürün Adedi",
+          "Satış Fatura Tarihi",
+          "Stok Kodu",
+          "Marka",
+          "Müşteri Kodu",
+          "Müşteri Adı Soyadı",
+          "Satış Sistem Numarası",
+          "E-Ticaret Web Adresi"
+        ],
+        "sample": [
+          {
+            "Satış Yeri Kodu": "3",
+            "Satış Yeri Adı": "x",
+            "Belge Takip No": "3652674846_8969870214",
+            "Satılan Ürün Barkodu": "1200143063254",
+            "Satılan Ürün Tutarı- Kdvsiz": "2159.71",
+            "Satılan Ürün Kdv Tutarı": "254.28",
+            "Satılan Ürün Tutarı-Kdvli": "2329.99",
+            "Satılan Alınan Ürün Adedi": "1",
+            "Satış Fatura Tarihi": "2024-12-01 00:00:00",
+            "Stok Kodu": "452164946",
+            "Marka": "02",
+            "Müşteri Kodu": "XZ1916985",
+            "Müşteri Adı Soyadı": "c",
+            "Satış Sistem Numarası": "6327139",
+            "E-Ticaret Web Adresi": "c"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Satış Tablosu\\Gelen Satış Tablosu\\Barkodlu Satış Güncel\\barkodluSatisGuncelExcel.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Grid",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Satış Yeri Kodu",
+          "Satış Yeri Adı",
+          "Belge Takip No",
+          "Zaman",
+          "Fatura No",
+          "Özel Kod 1",
+          "Özel Kod 2",
+          "Son Güncelleyen Kullanıcı",
+          "Satılan Ürün Barkodu",
+          "Satılan Ürün Tutarı- Kdvsiz",
+          "Satılan Ürün Kdv Tutarı",
+          "Satılan Ürün Tutarı-Kdvli",
+          "Satılan Alınan Ürün Adedi",
+          "Satış Fatura Tarihi",
+          "Stok Kodu",
+          "Marka",
+          "Müşteri Kodu",
+          "Müşteri Adı Soyadı",
+          "Satış Sistem Numarası",
+          "E-Ticaret Web Adresi"
+        ],
+        "sample": [
+          {
+            "Satış Yeri Kodu": "04",
+            "Satış Yeri Adı": "x",
+            "Belge Takip No": "3415831096_6325592477",
+            "Zaman": "2024-12-01 09:15:30",
+            "Fatura No": "ABC2024000145698",
+            "Özel Kod 1": "9645525896",
+            "Özel Kod 2": "3698719164457410",
+            "Son Güncelleyen Kullanıcı": "x",
+            "Satılan Ürün Barkodu": "5369885486296",
+            "Satılan Ürün Tutarı- Kdvsiz": "1930",
+            "Satılan Ürün Kdv Tutarı": "0",
+            "Satılan Ürün Tutarı-Kdvli": "1930",
+            "Satılan Alınan Ürün Adedi": "1",
+            "Satış Fatura Tarihi": "2024-12-01 00:00:00",
+            "Stok Kodu": "62423201",
+            "Marka": "35",
+            "Müşteri Kodu": "WE1913366",
+            "Müşteri Adı Soyadı": "X",
+            "Satış Sistem Numarası": "4317789",
+            "E-Ticaret Web Adresi": "X"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Satış Tablosu\\İade Satış Tablosu\\Barkodlu iade güncel\\barkodluIadeGuncel.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Grid",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İade Alınan Fatura Satış Yeri Kodu",
+          "İade Alınan Fatura Satış Yeri Adı",
+          "Zaman",
+          "Gider Pusulası Tarihi",
+          "Özel Kod 1",
+          "Özel Kod 2",
+          "Son Güncelleyen Kullanıcı",
+          "İade Alınan Fatura Sistem No",
+          "İade Alınan Fatura No",
+          "Sipariş No",
+          "İade Alınan Ürün Barkodu",
+          "İade Alınan Ürün Tutarı- Kdvsiz",
+          "İade Alınan Ürün Kdv Tutarı",
+          "İade Alınan Ürün Tutarı-Kdvli",
+          "İade Alınan Ürün Adedi",
+          "İade Alınan Fatura Tarihi",
+          "Stok Kodu",
+          "Marka",
+          "Müşteri Kodu",
+          "Müşteri Adı Soyadı",
+          "İade Sistem Numarası",
+          "E-Ticaret Web Adresi"
+        ],
+        "sample": [
+          {
+            "İade Alınan Fatura Satış Yeri Kodu": "2",
+            "İade Alınan Fatura Satış Yeri Adı": "x",
+            "Zaman": "2024-12-01 19:18:07",
+            "Gider Pusulası Tarihi": "2024-12-01 00:00:00",
+            "Özel Kod 1": "8567353835",
+            "Özel Kod 2": "365819191790258",
+            "Son Güncelleyen Kullanıcı": "x",
+            "İade Alınan Fatura Sistem No": "3699848",
+            "İade Alınan Fatura No": "74632165587_74563213827",
+            "Sipariş No": "74632165587_74563213827",
+            "İade Alınan Ürün Barkodu": "1450143643987",
+            "İade Alınan Ürün Tutarı- Kdvsiz": "-1986.36",
+            "İade Alınan Ürün Kdv Tutarı": "-213.64",
+            "İade Alınan Ürün Tutarı-Kdvli": "-1986",
+            "İade Alınan Ürün Adedi": "-1",
+            "İade Alınan Fatura Tarihi": "2024-12-01 00:00:00",
+            "Stok Kodu": "100202245",
+            "Marka": "02",
+            "Müşteri Kodu": "XZ1915436",
+            "Müşteri Adı Soyadı": "x",
+            "İade Sistem Numarası": "4319963",
+            "E-Ticaret Web Adresi": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Satış Tablosu\\İade Satış Tablosu\\Barkodlu İade\\barkodluIade2.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "Sayfa1",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "İade Alınan Fatura Satış Yeri Kodu",
+          "İade Alınan Fatura Satış Yeri Adı",
+          "İade Alınan Fatura Sistem No",
+          "İade Alınan Fatura No",
+          "Sipariş No",
+          "İade Alınan Ürün Barkodu",
+          "İade Alınan Ürün Tutarı- Kdvsiz",
+          "İade Alınan Ürün Kdv Tutarı",
+          "İade Alınan Ürün Tutarı-Kdvli",
+          "İade Alınan Ürün Adedi",
+          "İade Alınan Fatura Tarihi",
+          "Stok Kodu",
+          "Marka",
+          "Müşteri Kodu",
+          "Müşteri Adı Soyadı",
+          "İade Sistem Numarası",
+          "E-Ticaret Web Adresi"
+        ],
+        "sample": [
+          {
+            "İade Alınan Fatura Satış Yeri Kodu": "04",
+            "İade Alınan Fatura Satış Yeri Adı": "x",
+            "İade Alınan Fatura Sistem No": "4217287",
+            "İade Alınan Fatura No": "XZI2024000145321",
+            "Sipariş No": "2131548003",
+            "İade Alınan Ürün Barkodu": "8963902879777",
+            "İade Alınan Ürün Tutarı- Kdvsiz": "-1502.3400000000001",
+            "İade Alınan Ürün Kdv Tutarı": "-152.63",
+            "İade Alınan Ürün Tutarı-Kdvli": "-1654.97",
+            "İade Alınan Ürün Adedi": "-1",
+            "İade Alınan Fatura Tarihi": "2024-12-01 00:00:00",
+            "Stok Kodu": "900123-2074",
+            "Marka": "07",
+            "Müşteri Kodu": "XZ1913020",
+            "Müşteri Adı Soyadı": "x",
+            "İade Sistem Numarası": "1321333",
+            "E-Ticaret Web Adresi": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Sipariş Tablosu\\Gelen Sipariş Tablosu\\gelenSiparisListesi.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "selling_orders_details",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Takip Numarası",
+          "Sipariş Tipi",
+          "Mağaza",
+          "Ürün Adı",
+          "Ürün Kodu",
+          "Barkod",
+          "Marka",
+          "Varyant",
+          "Adet",
+          "Fiyat",
+          "KDV Oranı",
+          "KDV'siz Satış Fiyatı",
+          "Müşteri",
+          "E-posta",
+          "Teslimat Adresi",
+          "Teslimat İlçesi",
+          "Teslimat Şehri",
+          "Fatura Adresi",
+          "Fatura İlçesi",
+          "Fatura Şehri",
+          "Oluşma Zamanı",
+          "Toplama Kapanış Zamanı",
+          "Paketleme Tarihi",
+          "Kargo Gönderim Tarihi",
+          "Durum",
+          "Kargo Kampanya Kodu",
+          "Erp Oluşma Zamanı",
+          "Ürün Tipi",
+          "Renk",
+          "Raflanan Miktar",
+          "PO",
+          "Teslimat Adresi Başlığı",
+          "Fatura Adresi Başlığı",
+          "Referans Takip Idleri",
+          "Açıklama",
+          "Not",
+          "Beklenen Kargolama Tarihi",
+          "Rota No",
+          "Firma",
+          "Tedarikçi Rengi",
+          "SKU",
+          "EAN",
+          "Kaynak",
+          "Ödeme Tipi",
+          "Set Barkodu",
+          "Teslim Tarihi",
+          "Rezerve Miktarı",
+          "Öntanımlı Tedarikçi",
+          "Tedarikçi İndirimi",
+          "Yazar",
+          "Stok Statüsü",
+          "Desi",
+          "İlk Ürün Adedi",
+          "İptal Ürün Adedi",
+          "İade Ürün Adedi",
+          "Komisyon",
+          "Toplanan Adet",
+          "Paketlenmemiş Adet",
+          "Gönderim Tipi",
+          "Price At The Time Of Sale",
+          "Toplam Fiyat",
+          "Kategori Grubu",
+          "Pazar Yeri Fiyatı",
+          "Entegrasyon İndirim Oranı",
+          "İade Faturası Mı",
+          "Is Return Invoice Price",
+          "İndirimi mi",
+          "İndirim Tutarı",
+          "KDV'siz Toplam Fiyatı",
+          "Proforma Kuru",
+          "Ürün Sınıfı",
+          "Sipariş Desisi",
+          "Ürün Menşei",
+          "Mağaza İndirim Tutarı",
+          "External Id"
+        ],
+        "sample": [
+          {
+            "Takip Numarası": "9632136875_7563212001",
+            "Sipariş Tipi": "x",
+            "Mağaza": "x",
+            "Ürün Adı": "x",
+            "Ürün Kodu": "01-AB7451-2",
+            "Barkod": "1200143191254",
+            "Marka": "x",
+            "Varyant": "38",
+            "Adet": "1",
+            "Fiyat": "1142.19",
+            "KDV Oranı": "10",
+            "KDV'siz Satış Fiyatı": "1234.7182",
+            "Müşteri": "x",
+            "E-posta": "x",
+            "Teslimat Adresi": "x",
+            "Teslimat İlçesi": "x",
+            "Teslimat Şehri": "x",
+            "Fatura Adresi": "x",
+            "Fatura İlçesi": "x",
+            "Fatura Şehri": "x",
+            "Oluşma Zamanı": "15.12.2024 23:59:35",
+            "Toplama Kapanış Zamanı": "16.12.2024 10:28:30",
+            "Paketleme Tarihi": "16.12.2024 10:56:11",
+            "Kargo Gönderim Tarihi": "16.12.2024 17:53:14",
+            "Durum": "x",
+            "Kargo Kampanya Kodu": "4321819549606050",
+            "Erp Oluşma Zamanı": "2024-12-16 00:03:14",
+            "Ürün Tipi": "x",
+            "Renk": "101333421",
+            "Raflanan Miktar": "19",
+            "PO": "8522413007",
+            "Teslimat Adresi Başlığı": "x",
+            "Fatura Adresi Başlığı": "x",
+            "Açıklama": "x",
+            "Not": "x",
+            "Beklenen Kargolama Tarihi": "19.12.2024 23:59:47",
+            "Rota No": "x",
+            "Firma": "x",
+            "SKU": "x",
+            "EAN": "1354143194057",
+            "Kaynak": "x",
+            "Set Barkodu": "1200143194034",
+            "Teslim Tarihi": "18.12.2024 14:35:00",
+            "Rezerve Miktarı": "1",
+            "Desi": "0",
+            "İlk Ürün Adedi": "1",
+            "İptal Ürün Adedi": "0",
+            "İade Ürün Adedi": "0",
+            "Toplanan Adet": "1",
+            "Paketlenmemiş Adet": "0",
+            "Gönderim Tipi": "x",
+            "Price At The Time Of Sale": "1263.19",
+            "Toplam Fiyat": "1263.19",
+            "Pazar Yeri Fiyatı": "1821.99",
+            "Entegrasyon İndirim Oranı": "74.2",
+            "İade Faturası Mı": "x",
+            "İndirimi mi": "x",
+            "İndirim Tutarı": "25.0",
+            "KDV'siz Toplam Fiyatı": "16545182",
+            "Sipariş Desisi": "0",
+            "Ürün Menşei": "x",
+            "Mağaza İndirim Tutarı": "25",
+            "External Id": "1237818630"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  {
+    "file": "Sipariş Satış\\Sipariş Tablosu\\İade İptal Sipariş Tablosu\\iptaliadeListesi.xlsx",
+    "suffix": ".xlsx",
+    "sheets": [
+      {
+        "sheet": "cancellation_return_report",
+        "header_row_1based": 1,
+        "rows_sampled": 2,
+        "columns": [
+          "Sipariş Tarihi",
+          "Sipariş Tipi",
+          "Kaynak",
+          "Mağaza",
+          "Takip Numarası",
+          "Sipariş Durumu",
+          "Ürün Kodu",
+          "Ürün Adı",
+          "Barkod",
+          "SKU",
+          "İade / İptal Adedi",
+          "Satış Fiyatı",
+          "Kaynak Depo",
+          "Full / Parçalı",
+          "İade / İptal Türü",
+          "İade / İptal Tarihi",
+          "Neden",
+          "Kargo Kampanya Kodu",
+          "Not",
+          "İade / İptal Oranı(%)",
+          "Ödeme Tipi",
+          "İade / İptal Satış Fiyatı",
+          "İade Edilecek Toplam Tutar",
+          "Ret Nedeni",
+          "Ret Açıklaması",
+          "Kullanıcı",
+          "Durum",
+          "Kargo Kabul Tarihi",
+          "Kargo Kabul Yapan",
+          "Kur",
+          "Teslim Tarihi",
+          "Müşteri",
+          "İade Kargo Kodu",
+          "Taşıyıcı",
+          "Müşteri Notu",
+          "Kategori Grubu",
+          "marka",
+          "Tedarikçi Kodu",
+          "E-ticaret Ana Grup"
+        ],
+        "sample": [
+          {
+            "Sipariş Tarihi": "15.12.2024 23:34:48",
+            "Sipariş Tipi": "x",
+            "Kaynak": "x",
+            "Mağaza": "x",
+            "Takip Numarası": "32153296257-1",
+            "Sipariş Durumu": "x",
+            "Ürün Kodu": "154-AB6754-2",
+            "Ürün Adı": "X",
+            "SKU": "163279728789",
+            "İade / İptal Adedi": "1",
+            "Satış Fiyatı": "12239.9",
+            "Kaynak Depo": "x",
+            "Full / Parçalı": "x",
+            "İade / İptal Türü": "x",
+            "İade / İptal Tarihi": "15.12.2024 23:44:07",
+            "Neden": "x",
+            "Kargo Kampanya Kodu": "5412196257-1",
+            "İade / İptal Oranı(%)": "0",
+            "İade / İptal Satış Fiyatı": "16499.9",
+            "İade Edilecek Toplam Tutar": "15799.9",
+            "Durum": "x",
+            "Kur": "x",
+            "Müşteri": "x",
+            "Taşıyıcı": "x",
+            "marka": "x",
+            "Tedarikçi Kodu": "AB6236-010",
+            "E-ticaret Ana Grup": "x"
+          }
+        ]
+      }
+    ],
+    "error": null
+  }
+]

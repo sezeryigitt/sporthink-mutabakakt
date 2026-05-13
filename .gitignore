@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+coverage/
+
+# local env files
+.env
+.env.*
+
+# IDE/editor
+.idea/
+.vscode/
+
+# tooling
+.codex/
+.cache/
+.turbo/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# large data
+VeritabaniExcelDosyalari/
