@@ -10,7 +10,7 @@ type AuthContextValue = {
   session: AuthSession | null;
   isAuthenticated: boolean;
   isBootstrapping: boolean;
-  login: () => Promise<void>;
+  login: (loginHint?: string) => Promise<void>;
   logout: () => Promise<void>;
 };
 
@@ -90,8 +90,11 @@ export function AuthProvider({
       session,
       isAuthenticated: Boolean(session?.accessToken),
       isBootstrapping,
-      async login() {
-        await instance.loginRedirect(microsoftLoginRequest);
+      async login(loginHint?: string) {
+        await instance.loginRedirect({
+          ...microsoftLoginRequest,
+          loginHint,
+        });
       },
       async logout() {
         clearSession();
